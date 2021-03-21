@@ -1,0 +1,12 @@
+Execution failed for task ':app:checkDebugAarMetadata'.
+> Could not resolve all files for configuration ':app:debugRuntimeClasspath'.
+   > Could not find com.github.mukeshsolanki:android-otpview-pinview:4.10.
+     Searched in the following locations:
+       - https://dl.google.com/dl/android/maven2/com/github/mukeshsolanki/android-otpview-pinview/4.10/android-otpview-pinview-4.10.pom
+       - https://jcenter.bintray.com/com/github/mukeshsolanki/android-otpview-pinview/4.10/android-otpview-pinview-4.10.pom
+       - https://jitpack.io/com/github/mukeshsolanki/android-otpview-pinview/4.10/android-otpview-pinview-4.10.pom
+     Required by:
+         project :app
+
+Possible solution:
+ - Declare repository providing the artifact, see the documentation at https://docs.gradle.org/current/userguide/declaring_repositories.html
